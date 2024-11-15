@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #5d6d7e;
+}
+
+header {
+    background-color: #097BFF;
+    color: black;
+    padding: 1em 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+margin: 0;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
